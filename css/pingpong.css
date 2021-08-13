@@ -11,7 +11,7 @@
     height: 100%;
     position: absolute;
     top: 0;
-    ledt: 0;
+    left: 0;
     overflow: hidden;
     cursor: pointer;
 }
@@ -36,16 +36,16 @@
 
 #paddleA {
     left: 50px;
-    background-image: url(../images/football-player-left.png);
+    background-image: url(../images/chapter2/football-player-left.png);
 }
 
 #paddleB {
     right: 50px;
-    background-image: url(../images/football-player.png);
+    background-image: url(../images/chapter2/football-player.png);
 }
 
 .paddle-hand {
-    background: url(../images/football-player-hand.png) 50% 0 repeat-y;
+    background: url(../images/chapter2/football-player-hand.png) 50% 0 repeat-y;
     background-size: contain;
     width: 30px;
     height: 100%;
